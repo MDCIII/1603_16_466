@@ -1,0 +1,3529 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<urn:mdciii:1603:16()>
+    a skos:ConceptScheme ;
+    rdfs:label "(1603:16)" .
+
+<urn:mdciii:1603:16:466()>
+    a skos:Collection ;
+    rdfs:label "(1603:16:466)" ;
+    skos:inScheme <urn:mdciii:1603:16()> ;
+    skos:member <urn:mdciii:1603:16:466:3()> .
+
+<urn:mdciii:1603:16:466:3()>
+    a skos:Collection ;
+    rdfs:label "(1603:16:466:3)" ;
+    skos:member <urn:mdciii:1603:16:466:3:100101>, <urn:mdciii:1603:16:466:3:100201>, <urn:mdciii:1603:16:466:3:100301>, <urn:mdciii:1603:16:466:3:100401>, <urn:mdciii:1603:16:466:3:10102>, <urn:mdciii:1603:16:466:3:10103>, <urn:mdciii:1603:16:466:3:10104>, <urn:mdciii:1603:16:466:3:10105>, <urn:mdciii:1603:16:466:3:10106>, <urn:mdciii:1603:16:466:3:10107>, <urn:mdciii:1603:16:466:3:10108>, <urn:mdciii:1603:16:466:3:10109>, <urn:mdciii:1603:16:466:3:10110>, <urn:mdciii:1603:16:466:3:10111>, <urn:mdciii:1603:16:466:3:10112>, <urn:mdciii:1603:16:466:3:10113>, <urn:mdciii:1603:16:466:3:10201>, <urn:mdciii:1603:16:466:3:10202>, <urn:mdciii:1603:16:466:3:10203>, <urn:mdciii:1603:16:466:3:10204>, <urn:mdciii:1603:16:466:3:10205>, <urn:mdciii:1603:16:466:3:10206>, <urn:mdciii:1603:16:466:3:10207>, <urn:mdciii:1603:16:466:3:10208>, <urn:mdciii:1603:16:466:3:10209>, <urn:mdciii:1603:16:466:3:10210>, <urn:mdciii:1603:16:466:3:10211>, <urn:mdciii:1603:16:466:3:10212>, <urn:mdciii:1603:16:466:3:10213>, <urn:mdciii:1603:16:466:3:10214>, <urn:mdciii:1603:16:466:3:10215>, <urn:mdciii:1603:16:466:3:10301>, <urn:mdciii:1603:16:466:3:10302>, <urn:mdciii:1603:16:466:3:10303>, <urn:mdciii:1603:16:466:3:10304>, <urn:mdciii:1603:16:466:3:10305>, <urn:mdciii:1603:16:466:3:10306>, <urn:mdciii:1603:16:466:3:10307>, <urn:mdciii:1603:16:466:3:10308>, <urn:mdciii:1603:16:466:3:10309>, <urn:mdciii:1603:16:466:3:10310>, <urn:mdciii:1603:16:466:3:10311>, <urn:mdciii:1603:16:466:3:10312>, <urn:mdciii:1603:16:466:3:10313>, <urn:mdciii:1603:16:466:3:10314>, <urn:mdciii:1603:16:466:3:10315>, <urn:mdciii:1603:16:466:3:10316>, <urn:mdciii:1603:16:466:3:10317>, <urn:mdciii:1603:16:466:3:10318>, <urn:mdciii:1603:16:466:3:10319>, <urn:mdciii:1603:16:466:3:10320>, <urn:mdciii:1603:16:466:3:10321>, <urn:mdciii:1603:16:466:3:10322>, <urn:mdciii:1603:16:466:3:10323>, <urn:mdciii:1603:16:466:3:10324>, <urn:mdciii:1603:16:466:3:10325>, <urn:mdciii:1603:16:466:3:10326>, <urn:mdciii:1603:16:466:3:10327>, <urn:mdciii:1603:16:466:3:10328>, <urn:mdciii:1603:16:466:3:10401>, <urn:mdciii:1603:16:466:3:10402>, <urn:mdciii:1603:16:466:3:10403>, <urn:mdciii:1603:16:466:3:10404>, <urn:mdciii:1603:16:466:3:10405>, <urn:mdciii:1603:16:466:3:10406>, <urn:mdciii:1603:16:466:3:10407>, <urn:mdciii:1603:16:466:3:10408>, <urn:mdciii:1603:16:466:3:10409>, <urn:mdciii:1603:16:466:3:10410>, <urn:mdciii:1603:16:466:3:10411>, <urn:mdciii:1603:16:466:3:10412>, <urn:mdciii:1603:16:466:3:10501>, <urn:mdciii:1603:16:466:3:10502>, <urn:mdciii:1603:16:466:3:10503>, <urn:mdciii:1603:16:466:3:10504>, <urn:mdciii:1603:16:466:3:10505>, <urn:mdciii:1603:16:466:3:10506>, <urn:mdciii:1603:16:466:3:10507>, <urn:mdciii:1603:16:466:3:10508>, <urn:mdciii:1603:16:466:3:10509>, <urn:mdciii:1603:16:466:3:10510>, <urn:mdciii:1603:16:466:3:10511>, <urn:mdciii:1603:16:466:3:10512>, <urn:mdciii:1603:16:466:3:10513>, <urn:mdciii:1603:16:466:3:10514>, <urn:mdciii:1603:16:466:3:10515>, <urn:mdciii:1603:16:466:3:10516>, <urn:mdciii:1603:16:466:3:10517>, <urn:mdciii:1603:16:466:3:10518>, <urn:mdciii:1603:16:466:3:10519>, <urn:mdciii:1603:16:466:3:10520>, <urn:mdciii:1603:16:466:3:10521>, <urn:mdciii:1603:16:466:3:10522>, <urn:mdciii:1603:16:466:3:10523>, <urn:mdciii:1603:16:466:3:10524>, <urn:mdciii:1603:16:466:3:10525>, <urn:mdciii:1603:16:466:3:10526>, <urn:mdciii:1603:16:466:3:10527>, <urn:mdciii:1603:16:466:3:10528>, <urn:mdciii:1603:16:466:3:10529>, <urn:mdciii:1603:16:466:3:10530>, <urn:mdciii:1603:16:466:3:10531>, <urn:mdciii:1603:16:466:3:10532>, <urn:mdciii:1603:16:466:3:10533>, <urn:mdciii:1603:16:466:3:10601>, <urn:mdciii:1603:16:466:3:10602>, <urn:mdciii:1603:16:466:3:10603>, <urn:mdciii:1603:16:466:3:10604>, <urn:mdciii:1603:16:466:3:10605>, <urn:mdciii:1603:16:466:3:10606>, <urn:mdciii:1603:16:466:3:10607>, <urn:mdciii:1603:16:466:3:10608>, <urn:mdciii:1603:16:466:3:10609>, <urn:mdciii:1603:16:466:3:10610>, <urn:mdciii:1603:16:466:3:10611>, <urn:mdciii:1603:16:466:3:10612>, <urn:mdciii:1603:16:466:3:10613>, <urn:mdciii:1603:16:466:3:10614>, <urn:mdciii:1603:16:466:3:10615>, <urn:mdciii:1603:16:466:3:10616>, <urn:mdciii:1603:16:466:3:10701>, <urn:mdciii:1603:16:466:3:10702>, <urn:mdciii:1603:16:466:3:10703>, <urn:mdciii:1603:16:466:3:10704>, <urn:mdciii:1603:16:466:3:10705>, <urn:mdciii:1603:16:466:3:10706>, <urn:mdciii:1603:16:466:3:10707>, <urn:mdciii:1603:16:466:3:10708>, <urn:mdciii:1603:16:466:3:10709>, <urn:mdciii:1603:16:466:3:10710>, <urn:mdciii:1603:16:466:3:10711>, <urn:mdciii:1603:16:466:3:10712>, <urn:mdciii:1603:16:466:3:20101>, <urn:mdciii:1603:16:466:3:20102>, <urn:mdciii:1603:16:466:3:20103>, <urn:mdciii:1603:16:466:3:20104>, <urn:mdciii:1603:16:466:3:20105>, <urn:mdciii:1603:16:466:3:20106>, <urn:mdciii:1603:16:466:3:20107>, <urn:mdciii:1603:16:466:3:20108>, <urn:mdciii:1603:16:466:3:20109>, <urn:mdciii:1603:16:466:3:20201>, <urn:mdciii:1603:16:466:3:20202>, <urn:mdciii:1603:16:466:3:20203>, <urn:mdciii:1603:16:466:3:20204>, <urn:mdciii:1603:16:466:3:20205>, <urn:mdciii:1603:16:466:3:20206>, <urn:mdciii:1603:16:466:3:20207>, <urn:mdciii:1603:16:466:3:20208>, <urn:mdciii:1603:16:466:3:20209>, <urn:mdciii:1603:16:466:3:20210>, <urn:mdciii:1603:16:466:3:20211>, <urn:mdciii:1603:16:466:3:20212>, <urn:mdciii:1603:16:466:3:20213>, <urn:mdciii:1603:16:466:3:20214>, <urn:mdciii:1603:16:466:3:20215>, <urn:mdciii:1603:16:466:3:20216>, <urn:mdciii:1603:16:466:3:20217>, <urn:mdciii:1603:16:466:3:20218>, <urn:mdciii:1603:16:466:3:20219>, <urn:mdciii:1603:16:466:3:20220>, <urn:mdciii:1603:16:466:3:20221>, <urn:mdciii:1603:16:466:3:20222>, <urn:mdciii:1603:16:466:3:20223>, <urn:mdciii:1603:16:466:3:20301>, <urn:mdciii:1603:16:466:3:20302>, <urn:mdciii:1603:16:466:3:20303>, <urn:mdciii:1603:16:466:3:20304>, <urn:mdciii:1603:16:466:3:20305>, <urn:mdciii:1603:16:466:3:20306>, <urn:mdciii:1603:16:466:3:20307>, <urn:mdciii:1603:16:466:3:20308>, <urn:mdciii:1603:16:466:3:20309>, <urn:mdciii:1603:16:466:3:20401>, <urn:mdciii:1603:16:466:3:20402>, <urn:mdciii:1603:16:466:3:20403>, <urn:mdciii:1603:16:466:3:20404>, <urn:mdciii:1603:16:466:3:20405>, <urn:mdciii:1603:16:466:3:20406>, <urn:mdciii:1603:16:466:3:20407>, <urn:mdciii:1603:16:466:3:20408>, <urn:mdciii:1603:16:466:3:20409>, <urn:mdciii:1603:16:466:3:20410>, <urn:mdciii:1603:16:466:3:20411>, <urn:mdciii:1603:16:466:3:20412>, <urn:mdciii:1603:16:466:3:20413>, <urn:mdciii:1603:16:466:3:20414>, <urn:mdciii:1603:16:466:3:20415>, <urn:mdciii:1603:16:466:3:20416>, <urn:mdciii:1603:16:466:3:20417>, <urn:mdciii:1603:16:466:3:20418>, <urn:mdciii:1603:16:466:3:20419>, <urn:mdciii:1603:16:466:3:20420>, <urn:mdciii:1603:16:466:3:20421>, <urn:mdciii:1603:16:466:3:20422>, <urn:mdciii:1603:16:466:3:20423>, <urn:mdciii:1603:16:466:3:20424>, <urn:mdciii:1603:16:466:3:20425>, <urn:mdciii:1603:16:466:3:20426>, <urn:mdciii:1603:16:466:3:20427>, <urn:mdciii:1603:16:466:3:20428>, <urn:mdciii:1603:16:466:3:20429>, <urn:mdciii:1603:16:466:3:20430>, <urn:mdciii:1603:16:466:3:20431>, <urn:mdciii:1603:16:466:3:20432>, <urn:mdciii:1603:16:466:3:20433>, <urn:mdciii:1603:16:466:3:20434>, <urn:mdciii:1603:16:466:3:20435>, <urn:mdciii:1603:16:466:3:20436>, <urn:mdciii:1603:16:466:3:20437>, <urn:mdciii:1603:16:466:3:20501>, <urn:mdciii:1603:16:466:3:20502>, <urn:mdciii:1603:16:466:3:20503>, <urn:mdciii:1603:16:466:3:20504>, <urn:mdciii:1603:16:466:3:20505>, <urn:mdciii:1603:16:466:3:20506>, <urn:mdciii:1603:16:466:3:20507>, <urn:mdciii:1603:16:466:3:20508>, <urn:mdciii:1603:16:466:3:20509>, <urn:mdciii:1603:16:466:3:20510>, <urn:mdciii:1603:16:466:3:20601>, <urn:mdciii:1603:16:466:3:20602>, <urn:mdciii:1603:16:466:3:20603>, <urn:mdciii:1603:16:466:3:20604>, <urn:mdciii:1603:16:466:3:20605>, <urn:mdciii:1603:16:466:3:20606>, <urn:mdciii:1603:16:466:3:20607>, <urn:mdciii:1603:16:466:3:20608>, <urn:mdciii:1603:16:466:3:20609>, <urn:mdciii:1603:16:466:3:20701>, <urn:mdciii:1603:16:466:3:20702>, <urn:mdciii:1603:16:466:3:20703>, <urn:mdciii:1603:16:466:3:20704>, <urn:mdciii:1603:16:466:3:20705>, <urn:mdciii:1603:16:466:3:20706>, <urn:mdciii:1603:16:466:3:20707>, <urn:mdciii:1603:16:466:3:20708>, <urn:mdciii:1603:16:466:3:20709>, <urn:mdciii:1603:16:466:3:20710>, <urn:mdciii:1603:16:466:3:20711>, <urn:mdciii:1603:16:466:3:30101>, <urn:mdciii:1603:16:466:3:30102>, <urn:mdciii:1603:16:466:3:30103>, <urn:mdciii:1603:16:466:3:30104>, <urn:mdciii:1603:16:466:3:30105>, <urn:mdciii:1603:16:466:3:30106>, <urn:mdciii:1603:16:466:3:30107>, <urn:mdciii:1603:16:466:3:30108>, <urn:mdciii:1603:16:466:3:30109>, <urn:mdciii:1603:16:466:3:30110>, <urn:mdciii:1603:16:466:3:30111>, <urn:mdciii:1603:16:466:3:30112>, <urn:mdciii:1603:16:466:3:30113>, <urn:mdciii:1603:16:466:3:30114>, <urn:mdciii:1603:16:466:3:30115>, <urn:mdciii:1603:16:466:3:30116>, <urn:mdciii:1603:16:466:3:30117>, <urn:mdciii:1603:16:466:3:30118>, <urn:mdciii:1603:16:466:3:30119>, <urn:mdciii:1603:16:466:3:30120>, <urn:mdciii:1603:16:466:3:30121>, <urn:mdciii:1603:16:466:3:30122>, <urn:mdciii:1603:16:466:3:30123>, <urn:mdciii:1603:16:466:3:30124>, <urn:mdciii:1603:16:466:3:30125>, <urn:mdciii:1603:16:466:3:30126>, <urn:mdciii:1603:16:466:3:30201>, <urn:mdciii:1603:16:466:3:30202>, <urn:mdciii:1603:16:466:3:30203>, <urn:mdciii:1603:16:466:3:30204>, <urn:mdciii:1603:16:466:3:30205>, <urn:mdciii:1603:16:466:3:30206>, <urn:mdciii:1603:16:466:3:30207>, <urn:mdciii:1603:16:466:3:30208>, <urn:mdciii:1603:16:466:3:30209>, <urn:mdciii:1603:16:466:3:30301>, <urn:mdciii:1603:16:466:3:30302>, <urn:mdciii:1603:16:466:3:30303>, <urn:mdciii:1603:16:466:3:30304>, <urn:mdciii:1603:16:466:3:30305>, <urn:mdciii:1603:16:466:3:30306>, <urn:mdciii:1603:16:466:3:30307>, <urn:mdciii:1603:16:466:3:30308>, <urn:mdciii:1603:16:466:3:30309>, <urn:mdciii:1603:16:466:3:30310>, <urn:mdciii:1603:16:466:3:30311>, <urn:mdciii:1603:16:466:3:30312>, <urn:mdciii:1603:16:466:3:30401>, <urn:mdciii:1603:16:466:3:30402>, <urn:mdciii:1603:16:466:3:30403>, <urn:mdciii:1603:16:466:3:30404>, <urn:mdciii:1603:16:466:3:30405>, <urn:mdciii:1603:16:466:3:30406>, <urn:mdciii:1603:16:466:3:30407>, <urn:mdciii:1603:16:466:3:30408>, <urn:mdciii:1603:16:466:3:30409>, <urn:mdciii:1603:16:466:3:30410>, <urn:mdciii:1603:16:466:3:30411>, <urn:mdciii:1603:16:466:3:30412>, <urn:mdciii:1603:16:466:3:30413>, <urn:mdciii:1603:16:466:3:30414>, <urn:mdciii:1603:16:466:3:30415>, <urn:mdciii:1603:16:466:3:30416>, <urn:mdciii:1603:16:466:3:30417>, <urn:mdciii:1603:16:466:3:30418>, <urn:mdciii:1603:16:466:3:30419>, <urn:mdciii:1603:16:466:3:30420>, <urn:mdciii:1603:16:466:3:30421>, <urn:mdciii:1603:16:466:3:30422>, <urn:mdciii:1603:16:466:3:30423>, <urn:mdciii:1603:16:466:3:30424>, <urn:mdciii:1603:16:466:3:30425>, <urn:mdciii:1603:16:466:3:30426>, <urn:mdciii:1603:16:466:3:30427>, <urn:mdciii:1603:16:466:3:30428>, <urn:mdciii:1603:16:466:3:30429>, <urn:mdciii:1603:16:466:3:30430>, <urn:mdciii:1603:16:466:3:30431>, <urn:mdciii:1603:16:466:3:30432>, <urn:mdciii:1603:16:466:3:30433>, <urn:mdciii:1603:16:466:3:30434>, <urn:mdciii:1603:16:466:3:30435>, <urn:mdciii:1603:16:466:3:30436>, <urn:mdciii:1603:16:466:3:30501>, <urn:mdciii:1603:16:466:3:30502>, <urn:mdciii:1603:16:466:3:30503>, <urn:mdciii:1603:16:466:3:30504>, <urn:mdciii:1603:16:466:3:30505>, <urn:mdciii:1603:16:466:3:30506>, <urn:mdciii:1603:16:466:3:30507>, <urn:mdciii:1603:16:466:3:30508>, <urn:mdciii:1603:16:466:3:30509>, <urn:mdciii:1603:16:466:3:30510>, <urn:mdciii:1603:16:466:3:30511>, <urn:mdciii:1603:16:466:3:30512>, <urn:mdciii:1603:16:466:3:30513>, <urn:mdciii:1603:16:466:3:30514>, <urn:mdciii:1603:16:466:3:30515>, <urn:mdciii:1603:16:466:3:30516>, <urn:mdciii:1603:16:466:3:30517>, <urn:mdciii:1603:16:466:3:30518>, <urn:mdciii:1603:16:466:3:30519>, <urn:mdciii:1603:16:466:3:30520>, <urn:mdciii:1603:16:466:3:30521>, <urn:mdciii:1603:16:466:3:30522>, <urn:mdciii:1603:16:466:3:30523>, <urn:mdciii:1603:16:466:3:30524>, <urn:mdciii:1603:16:466:3:30525>, <urn:mdciii:1603:16:466:3:30526>, <urn:mdciii:1603:16:466:3:30527>, <urn:mdciii:1603:16:466:3:30528>, <urn:mdciii:1603:16:466:3:30529>, <urn:mdciii:1603:16:466:3:30530>, <urn:mdciii:1603:16:466:3:30531>, <urn:mdciii:1603:16:466:3:30532>, <urn:mdciii:1603:16:466:3:30533>, <urn:mdciii:1603:16:466:3:30534>, <urn:mdciii:1603:16:466:3:30535>, <urn:mdciii:1603:16:466:3:30536>, <urn:mdciii:1603:16:466:3:30537>, <urn:mdciii:1603:16:466:3:30538>, <urn:mdciii:1603:16:466:3:30539>, <urn:mdciii:1603:16:466:3:30540>, <urn:mdciii:1603:16:466:3:30541>, <urn:mdciii:1603:16:466:3:30542>, <urn:mdciii:1603:16:466:3:30543>, <urn:mdciii:1603:16:466:3:30601>, <urn:mdciii:1603:16:466:3:30602>, <urn:mdciii:1603:16:466:3:30603>, <urn:mdciii:1603:16:466:3:30604>, <urn:mdciii:1603:16:466:3:30605>, <urn:mdciii:1603:16:466:3:30606>, <urn:mdciii:1603:16:466:3:30607>, <urn:mdciii:1603:16:466:3:30608>, <urn:mdciii:1603:16:466:3:30609>, <urn:mdciii:1603:16:466:3:30610>, <urn:mdciii:1603:16:466:3:30611>, <urn:mdciii:1603:16:466:3:30612>, <urn:mdciii:1603:16:466:3:30701>, <urn:mdciii:1603:16:466:3:30702>, <urn:mdciii:1603:16:466:3:30703>, <urn:mdciii:1603:16:466:3:30704>, <urn:mdciii:1603:16:466:3:30705>, <urn:mdciii:1603:16:466:3:30706>, <urn:mdciii:1603:16:466:3:30707>, <urn:mdciii:1603:16:466:3:30708>, <urn:mdciii:1603:16:466:3:30709>, <urn:mdciii:1603:16:466:3:40101>, <urn:mdciii:1603:16:466:3:40102>, <urn:mdciii:1603:16:466:3:40103>, <urn:mdciii:1603:16:466:3:40104>, <urn:mdciii:1603:16:466:3:40105>, <urn:mdciii:1603:16:466:3:40106>, <urn:mdciii:1603:16:466:3:40107>, <urn:mdciii:1603:16:466:3:40108>, <urn:mdciii:1603:16:466:3:40109>, <urn:mdciii:1603:16:466:3:40110>, <urn:mdciii:1603:16:466:3:40111>, <urn:mdciii:1603:16:466:3:40201>, <urn:mdciii:1603:16:466:3:40202>, <urn:mdciii:1603:16:466:3:40203>, <urn:mdciii:1603:16:466:3:40204>, <urn:mdciii:1603:16:466:3:40205>, <urn:mdciii:1603:16:466:3:40206>, <urn:mdciii:1603:16:466:3:40207>, <urn:mdciii:1603:16:466:3:40208>, <urn:mdciii:1603:16:466:3:40209>, <urn:mdciii:1603:16:466:3:40210>, <urn:mdciii:1603:16:466:3:40211>, <urn:mdciii:1603:16:466:3:40212>, <urn:mdciii:1603:16:466:3:40213>, <urn:mdciii:1603:16:466:3:40214>, <urn:mdciii:1603:16:466:3:40215>, <urn:mdciii:1603:16:466:3:40216>, <urn:mdciii:1603:16:466:3:40217>, <urn:mdciii:1603:16:466:3:40301>, <urn:mdciii:1603:16:466:3:40302>, <urn:mdciii:1603:16:466:3:40303>, <urn:mdciii:1603:16:466:3:40304>, <urn:mdciii:1603:16:466:3:40305>, <urn:mdciii:1603:16:466:3:40306>, <urn:mdciii:1603:16:466:3:40307>, <urn:mdciii:1603:16:466:3:40308>, <urn:mdciii:1603:16:466:3:40309>, <urn:mdciii:1603:16:466:3:40310>, <urn:mdciii:1603:16:466:3:40311>, <urn:mdciii:1603:16:466:3:40401>, <urn:mdciii:1603:16:466:3:40402>, <urn:mdciii:1603:16:466:3:40403>, <urn:mdciii:1603:16:466:3:40404>, <urn:mdciii:1603:16:466:3:40405>, <urn:mdciii:1603:16:466:3:40406>, <urn:mdciii:1603:16:466:3:40407>, <urn:mdciii:1603:16:466:3:40408>, <urn:mdciii:1603:16:466:3:40409>, <urn:mdciii:1603:16:466:3:40410>, <urn:mdciii:1603:16:466:3:40411>, <urn:mdciii:1603:16:466:3:40412>, <urn:mdciii:1603:16:466:3:40501>, <urn:mdciii:1603:16:466:3:40502>, <urn:mdciii:1603:16:466:3:40503>, <urn:mdciii:1603:16:466:3:40504>, <urn:mdciii:1603:16:466:3:40505>, <urn:mdciii:1603:16:466:3:40506>, <urn:mdciii:1603:16:466:3:40507>, <urn:mdciii:1603:16:466:3:40508>, <urn:mdciii:1603:16:466:3:40509>, <urn:mdciii:1603:16:466:3:40510>, <urn:mdciii:1603:16:466:3:40511>, <urn:mdciii:1603:16:466:3:40512>, <urn:mdciii:1603:16:466:3:40513>, <urn:mdciii:1603:16:466:3:40514>, <urn:mdciii:1603:16:466:3:40515>, <urn:mdciii:1603:16:466:3:40516>, <urn:mdciii:1603:16:466:3:40517>, <urn:mdciii:1603:16:466:3:40518>, <urn:mdciii:1603:16:466:3:40519>, <urn:mdciii:1603:16:466:3:40520>, <urn:mdciii:1603:16:466:3:40521>, <urn:mdciii:1603:16:466:3:40522>, <urn:mdciii:1603:16:466:3:40523>, <urn:mdciii:1603:16:466:3:40524>, <urn:mdciii:1603:16:466:3:40525>, <urn:mdciii:1603:16:466:3:40601>, <urn:mdciii:1603:16:466:3:40602>, <urn:mdciii:1603:16:466:3:40603>, <urn:mdciii:1603:16:466:3:40604>, <urn:mdciii:1603:16:466:3:40605>, <urn:mdciii:1603:16:466:3:40606>, <urn:mdciii:1603:16:466:3:40607>, <urn:mdciii:1603:16:466:3:40608>, <urn:mdciii:1603:16:466:3:40609>, <urn:mdciii:1603:16:466:3:40610>, <urn:mdciii:1603:16:466:3:40611>, <urn:mdciii:1603:16:466:3:40612>, <urn:mdciii:1603:16:466:3:40613>, <urn:mdciii:1603:16:466:3:40614>, <urn:mdciii:1603:16:466:3:40615>, <urn:mdciii:1603:16:466:3:40616>, <urn:mdciii:1603:16:466:3:40617>, <urn:mdciii:1603:16:466:3:40618>, <urn:mdciii:1603:16:466:3:40619>, <urn:mdciii:1603:16:466:3:40620>, <urn:mdciii:1603:16:466:3:40621>, <urn:mdciii:1603:16:466:3:40622>, <urn:mdciii:1603:16:466:3:40623>, <urn:mdciii:1603:16:466:3:40624>, <urn:mdciii:1603:16:466:3:40625>, <urn:mdciii:1603:16:466:3:40626>, <urn:mdciii:1603:16:466:3:40627>, <urn:mdciii:1603:16:466:3:40628>, <urn:mdciii:1603:16:466:3:40629>, <urn:mdciii:1603:16:466:3:40630>, <urn:mdciii:1603:16:466:3:40701>, <urn:mdciii:1603:16:466:3:40702>, <urn:mdciii:1603:16:466:3:40703>, <urn:mdciii:1603:16:466:3:40704>, <urn:mdciii:1603:16:466:3:40705>, <urn:mdciii:1603:16:466:3:40706>, <urn:mdciii:1603:16:466:3:40707>, <urn:mdciii:1603:16:466:3:40708>, <urn:mdciii:1603:16:466:3:40709>, <urn:mdciii:1603:16:466:3:40710>, <urn:mdciii:1603:16:466:3:40711>, <urn:mdciii:1603:16:466:3:40712>, <urn:mdciii:1603:16:466:3:50101>, <urn:mdciii:1603:16:466:3:50102>, <urn:mdciii:1603:16:466:3:50103>, <urn:mdciii:1603:16:466:3:50104>, <urn:mdciii:1603:16:466:3:50105>, <urn:mdciii:1603:16:466:3:50106>, <urn:mdciii:1603:16:466:3:50107>, <urn:mdciii:1603:16:466:3:50108>, <urn:mdciii:1603:16:466:3:50109>, <urn:mdciii:1603:16:466:3:50110>, <urn:mdciii:1603:16:466:3:50111>, <urn:mdciii:1603:16:466:3:50112>, <urn:mdciii:1603:16:466:3:50113>, <urn:mdciii:1603:16:466:3:50114>, <urn:mdciii:1603:16:466:3:50115>, <urn:mdciii:1603:16:466:3:50116>, <urn:mdciii:1603:16:466:3:50117>, <urn:mdciii:1603:16:466:3:50118>, <urn:mdciii:1603:16:466:3:50119>, <urn:mdciii:1603:16:466:3:50120>, <urn:mdciii:1603:16:466:3:50121>, <urn:mdciii:1603:16:466:3:50201>, <urn:mdciii:1603:16:466:3:50202>, <urn:mdciii:1603:16:466:3:50203>, <urn:mdciii:1603:16:466:3:50204>, <urn:mdciii:1603:16:466:3:50205>, <urn:mdciii:1603:16:466:3:50206>, <urn:mdciii:1603:16:466:3:50207>, <urn:mdciii:1603:16:466:3:50208>, <urn:mdciii:1603:16:466:3:50209>, <urn:mdciii:1603:16:466:3:50210>, <urn:mdciii:1603:16:466:3:50211>, <urn:mdciii:1603:16:466:3:50212>, <urn:mdciii:1603:16:466:3:50301>, <urn:mdciii:1603:16:466:3:50302>, <urn:mdciii:1603:16:466:3:50303>, <urn:mdciii:1603:16:466:3:50304>, <urn:mdciii:1603:16:466:3:50305>, <urn:mdciii:1603:16:466:3:50306>, <urn:mdciii:1603:16:466:3:50307>, <urn:mdciii:1603:16:466:3:50308>, <urn:mdciii:1603:16:466:3:50309>, <urn:mdciii:1603:16:466:3:50310>, <urn:mdciii:1603:16:466:3:50311>, <urn:mdciii:1603:16:466:3:50312>, <urn:mdciii:1603:16:466:3:50401>, <urn:mdciii:1603:16:466:3:50402>, <urn:mdciii:1603:16:466:3:50403>, <urn:mdciii:1603:16:466:3:50404>, <urn:mdciii:1603:16:466:3:50405>, <urn:mdciii:1603:16:466:3:50406>, <urn:mdciii:1603:16:466:3:50407>, <urn:mdciii:1603:16:466:3:50408>, <urn:mdciii:1603:16:466:3:50409>, <urn:mdciii:1603:16:466:3:50410>, <urn:mdciii:1603:16:466:3:50411>, <urn:mdciii:1603:16:466:3:50412>, <urn:mdciii:1603:16:466:3:50413>, <urn:mdciii:1603:16:466:3:50414>, <urn:mdciii:1603:16:466:3:50415>, <urn:mdciii:1603:16:466:3:50501>, <urn:mdciii:1603:16:466:3:50502>, <urn:mdciii:1603:16:466:3:50503>, <urn:mdciii:1603:16:466:3:50504>, <urn:mdciii:1603:16:466:3:50505>, <urn:mdciii:1603:16:466:3:50506>, <urn:mdciii:1603:16:466:3:50507>, <urn:mdciii:1603:16:466:3:50508>, <urn:mdciii:1603:16:466:3:50509>, <urn:mdciii:1603:16:466:3:50510>, <urn:mdciii:1603:16:466:3:50511>, <urn:mdciii:1603:16:466:3:50512>, <urn:mdciii:1603:16:466:3:50513>, <urn:mdciii:1603:16:466:3:50514>, <urn:mdciii:1603:16:466:3:50515>, <urn:mdciii:1603:16:466:3:50516>, <urn:mdciii:1603:16:466:3:50601>, <urn:mdciii:1603:16:466:3:50602>, <urn:mdciii:1603:16:466:3:50603>, <urn:mdciii:1603:16:466:3:50604>, <urn:mdciii:1603:16:466:3:50605>, <urn:mdciii:1603:16:466:3:50606>, <urn:mdciii:1603:16:466:3:50607>, <urn:mdciii:1603:16:466:3:50608>, <urn:mdciii:1603:16:466:3:50609>, <urn:mdciii:1603:16:466:3:50610>, <urn:mdciii:1603:16:466:3:50611>, <urn:mdciii:1603:16:466:3:50612>, <urn:mdciii:1603:16:466:3:50613>, <urn:mdciii:1603:16:466:3:50614>, <urn:mdciii:1603:16:466:3:50615>, <urn:mdciii:1603:16:466:3:50701>, <urn:mdciii:1603:16:466:3:50702>, <urn:mdciii:1603:16:466:3:50703>, <urn:mdciii:1603:16:466:3:50704>, <urn:mdciii:1603:16:466:3:50705>, <urn:mdciii:1603:16:466:3:50706>, <urn:mdciii:1603:16:466:3:50707>, <urn:mdciii:1603:16:466:3:50708>, <urn:mdciii:1603:16:466:3:50709>, <urn:mdciii:1603:16:466:3:50710>, <urn:mdciii:1603:16:466:3:50801>, <urn:mdciii:1603:16:466:3:50802>, <urn:mdciii:1603:16:466:3:50803>, <urn:mdciii:1603:16:466:3:50804>, <urn:mdciii:1603:16:466:3:50805>, <urn:mdciii:1603:16:466:3:50806>, <urn:mdciii:1603:16:466:3:50807>, <urn:mdciii:1603:16:466:3:60101>, <urn:mdciii:1603:16:466:3:60102>, <urn:mdciii:1603:16:466:3:60103>, <urn:mdciii:1603:16:466:3:60104>, <urn:mdciii:1603:16:466:3:60105>, <urn:mdciii:1603:16:466:3:60106>, <urn:mdciii:1603:16:466:3:60107>, <urn:mdciii:1603:16:466:3:60108>, <urn:mdciii:1603:16:466:3:60109>, <urn:mdciii:1603:16:466:3:60110>, <urn:mdciii:1603:16:466:3:60111>, <urn:mdciii:1603:16:466:3:60112>, <urn:mdciii:1603:16:466:3:60113>, <urn:mdciii:1603:16:466:3:60201>, <urn:mdciii:1603:16:466:3:60202>, <urn:mdciii:1603:16:466:3:60203>, <urn:mdciii:1603:16:466:3:60204>, <urn:mdciii:1603:16:466:3:60205>, <urn:mdciii:1603:16:466:3:60206>, <urn:mdciii:1603:16:466:3:60207>, <urn:mdciii:1603:16:466:3:60208>, <urn:mdciii:1603:16:466:3:60209>, <urn:mdciii:1603:16:466:3:60210>, <urn:mdciii:1603:16:466:3:60211>, <urn:mdciii:1603:16:466:3:60212>, <urn:mdciii:1603:16:466:3:60213>, <urn:mdciii:1603:16:466:3:60214>, <urn:mdciii:1603:16:466:3:60215>, <urn:mdciii:1603:16:466:3:60216>, <urn:mdciii:1603:16:466:3:60301>, <urn:mdciii:1603:16:466:3:60302>, <urn:mdciii:1603:16:466:3:60303>, <urn:mdciii:1603:16:466:3:60304>, <urn:mdciii:1603:16:466:3:60305>, <urn:mdciii:1603:16:466:3:60306>, <urn:mdciii:1603:16:466:3:60307>, <urn:mdciii:1603:16:466:3:60308>, <urn:mdciii:1603:16:466:3:60309>, <urn:mdciii:1603:16:466:3:60401>, <urn:mdciii:1603:16:466:3:60402>, <urn:mdciii:1603:16:466:3:60403>, <urn:mdciii:1603:16:466:3:60404>, <urn:mdciii:1603:16:466:3:60405>, <urn:mdciii:1603:16:466:3:60406>, <urn:mdciii:1603:16:466:3:60407>, <urn:mdciii:1603:16:466:3:60408>, <urn:mdciii:1603:16:466:3:60501>, <urn:mdciii:1603:16:466:3:60502>, <urn:mdciii:1603:16:466:3:60503>, <urn:mdciii:1603:16:466:3:60504>, <urn:mdciii:1603:16:466:3:60505>, <urn:mdciii:1603:16:466:3:60506>, <urn:mdciii:1603:16:466:3:70101>, <urn:mdciii:1603:16:466:3:70102>, <urn:mdciii:1603:16:466:3:70103>, <urn:mdciii:1603:16:466:3:70104>, <urn:mdciii:1603:16:466:3:70105>, <urn:mdciii:1603:16:466:3:70106>, <urn:mdciii:1603:16:466:3:70107>, <urn:mdciii:1603:16:466:3:70201>, <urn:mdciii:1603:16:466:3:70202>, <urn:mdciii:1603:16:466:3:70203>, <urn:mdciii:1603:16:466:3:70204>, <urn:mdciii:1603:16:466:3:70205>, <urn:mdciii:1603:16:466:3:70301>, <urn:mdciii:1603:16:466:3:70302>, <urn:mdciii:1603:16:466:3:70303>, <urn:mdciii:1603:16:466:3:70304>, <urn:mdciii:1603:16:466:3:70305>, <urn:mdciii:1603:16:466:3:70306>, <urn:mdciii:1603:16:466:3:70307>, <urn:mdciii:1603:16:466:3:80101>, <urn:mdciii:1603:16:466:3:80102>, <urn:mdciii:1603:16:466:3:80103>, <urn:mdciii:1603:16:466:3:80201>, <urn:mdciii:1603:16:466:3:80202>, <urn:mdciii:1603:16:466:3:80203>, <urn:mdciii:1603:16:466:3:80301>, <urn:mdciii:1603:16:466:3:80302>, <urn:mdciii:1603:16:466:3:80303>, <urn:mdciii:1603:16:466:3:80401>, <urn:mdciii:1603:16:466:3:90101>, <urn:mdciii:1603:16:466:3:90102>, <urn:mdciii:1603:16:466:3:90103>, <urn:mdciii:1603:16:466:3:90104>, <urn:mdciii:1603:16:466:3:90105>, <urn:mdciii:1603:16:466:3:90106> .
+
+<urn:mdciii:1603:16:466:3(1)>
+    a owl:Ontology .
+
+<urn:mdciii:1603:16:466:3:100101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:100101" ;
+    skos:prefLabel "Ménaka"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:100201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:100201" ;
+    skos:prefLabel "Andéramboukane"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:100301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:100301" ;
+    skos:prefLabel "Inékar"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:100401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:100401" ;
+    skos:prefLabel "Tidermène"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10101" ;
+    skos:prefLabel "Bafoulabe"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10102" ;
+    skos:prefLabel "Bamafélé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10103" ;
+    skos:prefLabel "Diakon"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10104" ;
+    skos:prefLabel "Diallan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10105" ;
+    skos:prefLabel "Diokeli"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10106" ;
+    skos:prefLabel "Gounfan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10107" ;
+    skos:prefLabel "Kontéla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10108>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10108" ;
+    skos:prefLabel "Koundian"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10109>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10109" ;
+    skos:prefLabel "Mahina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10110>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10110" ;
+    skos:prefLabel "Niambia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10111>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10111" ;
+    skos:prefLabel "Dinlin Oualia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10112>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10112" ;
+    skos:prefLabel "Sidibela"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10113>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10113" ;
+    skos:prefLabel "Tomora"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10201" ;
+    skos:prefLabel "Béma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10202" ;
+    skos:prefLabel "Diangounté Camara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10203" ;
+    skos:prefLabel "Dianguirdé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10204" ;
+    skos:prefLabel "Diema"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10205" ;
+    skos:prefLabel "Diéoura"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10206>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10206" ;
+    skos:prefLabel "Dioumara Koussata"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10207>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10207" ;
+    skos:prefLabel "Fassoudebé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10208>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10208" ;
+    skos:prefLabel "Fatao"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10209>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10209" ;
+    skos:prefLabel "Gomitradougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10210>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10210" ;
+    skos:prefLabel "Grouméra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10211>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10211" ;
+    skos:prefLabel "Guédébiné"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10212>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10212" ;
+    skos:prefLabel "Lakamané"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10213>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10213" ;
+    skos:prefLabel "Lambidou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10214>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10214" ;
+    skos:prefLabel "Madiga Sacko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10215>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10215" ;
+    skos:prefLabel "Sansankidé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10301" ;
+    skos:prefLabel "Bangassi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10302" ;
+    skos:prefLabel "Colimbiné"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10303" ;
+    skos:prefLabel "Diamou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10304" ;
+    skos:prefLabel "Djélébou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10305" ;
+    skos:prefLabel "Falémé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10306" ;
+    skos:prefLabel "Fégui"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10307" ;
+    skos:prefLabel "Gory Gopéla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10308>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10308" ;
+    skos:prefLabel "Gouméra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10309>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10309" ;
+    skos:prefLabel "Guidimakan Keri Kaff"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10310>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10310" ;
+    skos:prefLabel "Hawa Dembaya"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10311>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10311" ;
+    skos:prefLabel "Karakoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10312>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10312" ;
+    skos:prefLabel "Kayes"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10313>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10313" ;
+    skos:prefLabel "Kéméné Tambo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10314>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10314" ;
+    skos:prefLabel "Khouloum"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10315>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10315" ;
+    skos:prefLabel "Koniakary"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10316>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10316" ;
+    skos:prefLabel "Koussané"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10317>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10317" ;
+    skos:prefLabel "Liberté Dembaya"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10318>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10318" ;
+    skos:prefLabel "Logo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10319>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10319" ;
+    skos:prefLabel "Maréna Diombougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10320>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10320" ;
+    skos:prefLabel "Marintoumania"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10321>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10321" ;
+    skos:prefLabel "Sadiola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10322>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10322" ;
+    skos:prefLabel "Sahel"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10323>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10323" ;
+    skos:prefLabel "Samé Diomgoma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10324>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10324" ;
+    skos:prefLabel "Ségala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10325>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10325" ;
+    skos:prefLabel "Séro Siamanou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10326>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10326" ;
+    skos:prefLabel "Somankidy"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10327>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10327" ;
+    skos:prefLabel "Sony"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10328>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10328" ;
+    skos:prefLabel "Tafacirga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10401" ;
+    skos:prefLabel "Baye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10402>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10402" ;
+    skos:prefLabel "Dabia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10403>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10403" ;
+    skos:prefLabel "Dialafara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10404>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10404" ;
+    skos:prefLabel "Dombia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10405>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10405" ;
+    skos:prefLabel "Faléa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10406>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10406" ;
+    skos:prefLabel "Faraba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10407>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10407" ;
+    skos:prefLabel "Guenegoré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10408>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10408" ;
+    skos:prefLabel "Kassama"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10409>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10409" ;
+    skos:prefLabel "Kéniéba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10410>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10410" ;
+    skos:prefLabel "Kouroukoto"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10411>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10411" ;
+    skos:prefLabel "Sagalo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10412>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10412" ;
+    skos:prefLabel "Sitakily"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10501>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10501" ;
+    skos:prefLabel "Badia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10502>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10502" ;
+    skos:prefLabel "Bendougouba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10503>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10503" ;
+    skos:prefLabel "Benkadi Founia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10504>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10504" ;
+    skos:prefLabel "Boudofo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10505" ;
+    skos:prefLabel "Bougarybaya"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10506>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10506" ;
+    skos:prefLabel "Dindanko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10507>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10507" ;
+    skos:prefLabel "Djidian"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10508>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10508" ;
+    skos:prefLabel "Djougoun"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10509>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10509" ;
+    skos:prefLabel "Gadougou I"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10510" ;
+    skos:prefLabel "Gadougou II"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10511>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10511" ;
+    skos:prefLabel "Guémoukouraba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10512>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10512" ;
+    skos:prefLabel "Kassaro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10513>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10513" ;
+    skos:prefLabel "Kita"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10514>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10514" ;
+    skos:prefLabel "Kita Nord"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10515" ;
+    skos:prefLabel "Kita Ouest"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10516>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10516" ;
+    skos:prefLabel "Kobri"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10517>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10517" ;
+    skos:prefLabel "Kokofata"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10518>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10518" ;
+    skos:prefLabel "Kotouba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10519>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10519" ;
+    skos:prefLabel "Koulou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10520" ;
+    skos:prefLabel "Kourounikoto"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10521>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10521" ;
+    skos:prefLabel "Madina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10522>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10522" ;
+    skos:prefLabel "Makano"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10523>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10523" ;
+    skos:prefLabel "Namala Guimba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10524>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10524" ;
+    skos:prefLabel "Niantanso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10525" ;
+    skos:prefLabel "Saboula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10526>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10526" ;
+    skos:prefLabel "Sébékoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10527>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10527" ;
+    skos:prefLabel "Séféto Nord"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10528>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10528" ;
+    skos:prefLabel "Séféto Ouest"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10529>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10529" ;
+    skos:prefLabel "Senko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10530" ;
+    skos:prefLabel "Sirakoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10531>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10531" ;
+    skos:prefLabel "Souransan Tomoto"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10532>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10532" ;
+    skos:prefLabel "Tambaga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10533>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10533" ;
+    skos:prefLabel "Toukoto"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10601>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10601" ;
+    skos:prefLabel "Baniéré Koré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10602>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10602" ;
+    skos:prefLabel "Diabigué"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10603>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10603" ;
+    skos:prefLabel "Diarra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10604>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10604" ;
+    skos:prefLabel "Diaye Coura"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10605>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10605" ;
+    skos:prefLabel "Gavinané"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10606>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10606" ;
+    skos:prefLabel "Gogui"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10607>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10607" ;
+    skos:prefLabel "Guétéma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10608>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10608" ;
+    skos:prefLabel "Kadiaba Kadiel"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10609>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10609" ;
+    skos:prefLabel "Koréra Koré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10610>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10610" ;
+    skos:prefLabel "Nioro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10611>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10611" ;
+    skos:prefLabel "Nioro Tougouné Rangaba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10612>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10612" ;
+    skos:prefLabel "Sandaré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10613>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10613" ;
+    skos:prefLabel "Simbi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10614>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10614" ;
+    skos:prefLabel "Troungoumbé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10615>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10615" ;
+    skos:prefLabel "Yéréré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10616>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10616" ;
+    skos:prefLabel "Youri"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10701>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10701" ;
+    skos:prefLabel "Diafounou Diongaga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10702>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10702" ;
+    skos:prefLabel "Diafounou Gory"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10703>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10703" ;
+    skos:prefLabel "Fanga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10704>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10704" ;
+    skos:prefLabel "Gory"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10705>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10705" ;
+    skos:prefLabel "Guidime"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10706>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10706" ;
+    skos:prefLabel "Kirané Kaniaga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10707>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10707" ;
+    skos:prefLabel "Konsiga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10708>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10708" ;
+    skos:prefLabel "Kremis"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10709>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10709" ;
+    skos:prefLabel "Marekaffo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10710>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10710" ;
+    skos:prefLabel "Soumpou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10711>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10711" ;
+    skos:prefLabel "Toya"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:10712>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:10712" ;
+    skos:prefLabel "Tringa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20101" ;
+    skos:prefLabel "Banamba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20102" ;
+    skos:prefLabel "Ben Kadi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20103" ;
+    skos:prefLabel "Boron"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20104" ;
+    skos:prefLabel "Duguwolowula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20105" ;
+    skos:prefLabel "Kiban"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20106" ;
+    skos:prefLabel "Madina Sacko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20107" ;
+    skos:prefLabel "Sebete"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20108>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20108" ;
+    skos:prefLabel "Toubacoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20109>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20109" ;
+    skos:prefLabel "Toukoroba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20201" ;
+    skos:prefLabel "Banco"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20202" ;
+    skos:prefLabel "Benkadi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20203" ;
+    skos:prefLabel "Binko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20204" ;
+    skos:prefLabel "Dégnékoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20205" ;
+    skos:prefLabel "Dièbè"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20206>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20206" ;
+    skos:prefLabel "Diedougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20207>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20207" ;
+    skos:prefLabel "Diouman"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20208>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20208" ;
+    skos:prefLabel "Dolendougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20209>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20209" ;
+    skos:prefLabel "Guégnéka"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20210>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20210" ;
+    skos:prefLabel "Jékafo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20211>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20211" ;
+    skos:prefLabel "Kaladougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20212>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20212" ;
+    skos:prefLabel "Kémékafo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20213>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20213" ;
+    skos:prefLabel "Kerela"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20214>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20214" ;
+    skos:prefLabel "Kilidougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20215>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20215" ;
+    skos:prefLabel "Massigui"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20216>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20216" ;
+    skos:prefLabel "Nangola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20217>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20217" ;
+    skos:prefLabel "N'dlondougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20218>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20218" ;
+    skos:prefLabel "N'garadougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20219>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20219" ;
+    skos:prefLabel "N'golobougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20220>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20220" ;
+    skos:prefLabel "Niantjila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20221>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20221" ;
+    skos:prefLabel "Ténindougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20222>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20222" ;
+    skos:prefLabel "Wacoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20223>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20223" ;
+    skos:prefLabel "Zan Coulibaly"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20301" ;
+    skos:prefLabel "Balan Bakama"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20302" ;
+    skos:prefLabel "Benkadi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20303" ;
+    skos:prefLabel "Kaniogo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20304" ;
+    skos:prefLabel "Karan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20305" ;
+    skos:prefLabel "Maramandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20306" ;
+    skos:prefLabel "Minidian"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20307" ;
+    skos:prefLabel "Narena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20308>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20308" ;
+    skos:prefLabel "Nouga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20309>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20309" ;
+    skos:prefLabel "Séléfougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20401" ;
+    skos:prefLabel "Baguinéda Camp"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20402>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20402" ;
+    skos:prefLabel "Bancoumana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20403>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20403" ;
+    skos:prefLabel "Bossofala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20404>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20404" ;
+    skos:prefLabel "Bougoula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20405>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20405" ;
+    skos:prefLabel "Daban"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20406>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20406" ;
+    skos:prefLabel "Diago"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20407>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20407" ;
+    skos:prefLabel "Dialakoroba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20408>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20408" ;
+    skos:prefLabel "Dialakorodji"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20409>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20409" ;
+    skos:prefLabel "Diébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20410>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20410" ;
+    skos:prefLabel "Dio Gare"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20411>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20411" ;
+    skos:prefLabel "Dogodouman"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20412>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20412" ;
+    skos:prefLabel "Dombila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20413>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20413" ;
+    skos:prefLabel "Doubabougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20414>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20414" ;
+    skos:prefLabel "Faraba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20415>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20415" ;
+    skos:prefLabel "Kalabancoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20416>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20416" ;
+    skos:prefLabel "Kalifabougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20417>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20417" ;
+    skos:prefLabel "Kambila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20418>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20418" ;
+    skos:prefLabel "Kati"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20419>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20419" ;
+    skos:prefLabel "Kourouba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20420>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20420" ;
+    skos:prefLabel "Mandé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20421>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20421" ;
+    skos:prefLabel "Moribabougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20422>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20422" ;
+    skos:prefLabel "Mountougoula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20423>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20423" ;
+    skos:prefLabel "N'gabacoro Droit"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20424>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20424" ;
+    skos:prefLabel "N'gouraba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20425>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20425" ;
+    skos:prefLabel "Niagadina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20426>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20426" ;
+    skos:prefLabel "Nioumakana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20427>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20427" ;
+    skos:prefLabel "N'tjiba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20428>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20428" ;
+    skos:prefLabel "Ouélessébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20429>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20429" ;
+    skos:prefLabel "Safo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20430>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20430" ;
+    skos:prefLabel "Sanankoro Djitoumou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20431>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20431" ;
+    skos:prefLabel "Sanankoroba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20432>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20432" ;
+    skos:prefLabel "Sangarébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20433>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20433" ;
+    skos:prefLabel "Siby"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20434>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20434" ;
+    skos:prefLabel "Sobra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20435>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20435" ;
+    skos:prefLabel "Tiakadougou Dialakoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20436>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20436" ;
+    skos:prefLabel "Tiélé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20437>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20437" ;
+    skos:prefLabel "Yélékedougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20501>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20501" ;
+    skos:prefLabel "Didiéni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20502>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20502" ;
+    skos:prefLabel "Guihoyo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20503>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20503" ;
+    skos:prefLabel "Kolokani"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20504>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20504" ;
+    skos:prefLabel "Massantola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20505" ;
+    skos:prefLabel "Nonkon"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20506>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20506" ;
+    skos:prefLabel "Nossombougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20507>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20507" ;
+    skos:prefLabel "Ouolodo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20508>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20508" ;
+    skos:prefLabel "Sagabala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20509>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20509" ;
+    skos:prefLabel "Sébécoro I"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20510" ;
+    skos:prefLabel "Tioribougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20601>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20601" ;
+    skos:prefLabel "Dinandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20602>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20602" ;
+    skos:prefLabel "Doumba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20603>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20603" ;
+    skos:prefLabel "Koula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20604>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20604" ;
+    skos:prefLabel "Koulikoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20605>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20605" ;
+    skos:prefLabel "Méguétan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20606>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20606" ;
+    skos:prefLabel "Nyamina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20607>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20607" ;
+    skos:prefLabel "Sirakorola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20608>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20608" ;
+    skos:prefLabel "Tienfala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20609>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20609" ;
+    skos:prefLabel "Tougouni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20701>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20701" ;
+    skos:prefLabel "Allahina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20702>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20702" ;
+    skos:prefLabel "Dabo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20703>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20703" ;
+    skos:prefLabel "Dilly"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20704>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20704" ;
+    skos:prefLabel "Dogofry"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20705>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20705" ;
+    skos:prefLabel "Fallou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20706>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20706" ;
+    skos:prefLabel "Guéneibe"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20707>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20707" ;
+    skos:prefLabel "Guiré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20708>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20708" ;
+    skos:prefLabel "Koronga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20709>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20709" ;
+    skos:prefLabel "Nara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20710>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20710" ;
+    skos:prefLabel "Niamana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:20711>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:20711" ;
+    skos:prefLabel "Ouagadou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30101" ;
+    skos:prefLabel "Bladié-Tièmala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30102" ;
+    skos:prefLabel "Bougouni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30103" ;
+    skos:prefLabel "Danou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30104" ;
+    skos:prefLabel "Débélin"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30105" ;
+    skos:prefLabel "Défina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30106" ;
+    skos:prefLabel "Dogo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30107" ;
+    skos:prefLabel "Domba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30108>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30108" ;
+    skos:prefLabel "Farédiélé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30109>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30109" ;
+    skos:prefLabel "Faragouaran"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30110>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30110" ;
+    skos:prefLabel "Garalo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30111>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30111" ;
+    skos:prefLabel "Kéléya"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30112>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30112" ;
+    skos:prefLabel "Kolélé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30113>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30113" ;
+    skos:prefLabel "Kola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30114>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30114" ;
+    skos:prefLabel "Koumantou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30115>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30115" ;
+    skos:prefLabel "Kouroulamini"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30116>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30116" ;
+    skos:prefLabel "Méridiéla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30117>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30117" ;
+    skos:prefLabel "Ouroun"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30118>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30118" ;
+    skos:prefLabel "Sanso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30119>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30119" ;
+    skos:prefLabel "Sibirila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30120>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30120" ;
+    skos:prefLabel "Sido"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30121>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30121" ;
+    skos:prefLabel "Syen Toula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30122>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30122" ;
+    skos:prefLabel "Tiémala Banimonitié"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30123>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30123" ;
+    skos:prefLabel "Wola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30124>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30124" ;
+    skos:prefLabel "Yinindougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30125>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30125" ;
+    skos:prefLabel "Yiridougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30126>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30126" ;
+    skos:prefLabel "Zantiébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30201" ;
+    skos:prefLabel "Diou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30202" ;
+    skos:prefLabel "Dioumaténé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30203" ;
+    skos:prefLabel "Fourou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30204" ;
+    skos:prefLabel "Kadiolo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30205" ;
+    skos:prefLabel "Kai"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30206>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30206" ;
+    skos:prefLabel "Loulouni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30207>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30207" ;
+    skos:prefLabel "Misséni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30208>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30208" ;
+    skos:prefLabel "Nimbougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30209>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30209" ;
+    skos:prefLabel "Zégoua"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30301" ;
+    skos:prefLabel "Bougoula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30302" ;
+    skos:prefLabel "Fakola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30303" ;
+    skos:prefLabel "Farako"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30304" ;
+    skos:prefLabel "Kadiana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30305" ;
+    skos:prefLabel "Kébila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30306" ;
+    skos:prefLabel "Kolondiéba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30307" ;
+    skos:prefLabel "Kolosso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30308>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30308" ;
+    skos:prefLabel "Ména"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30309>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30309" ;
+    skos:prefLabel "Nangalasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30310>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30310" ;
+    skos:prefLabel "N'golodiana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30311>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30311" ;
+    skos:prefLabel "Tiongui"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30312>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30312" ;
+    skos:prefLabel "Tousseguela"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30401" ;
+    skos:prefLabel "Diédougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30402>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30402" ;
+    skos:prefLabel "Diouradougou Kafo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30403>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30403" ;
+    skos:prefLabel "Fagui"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30404>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30404" ;
+    skos:prefLabel "Fakolo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30405>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30405" ;
+    skos:prefLabel "Gouadié Sougouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30406>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30406" ;
+    skos:prefLabel "Gouadji Kao"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30407>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30407" ;
+    skos:prefLabel "Kafo Faboli"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30408>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30408" ;
+    skos:prefLabel "Kapala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30409>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30409" ;
+    skos:prefLabel "Karagouana Mallé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30410>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30410" ;
+    skos:prefLabel "Kolonigué"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30411>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30411" ;
+    skos:prefLabel "Konina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30412>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30412" ;
+    skos:prefLabel "Koningué"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30413>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30413" ;
+    skos:prefLabel "Konséguéla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30414>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30414" ;
+    skos:prefLabel "Koromo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30415>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30415" ;
+    skos:prefLabel "Kouniana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30416>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30416" ;
+    skos:prefLabel "Koutiala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30417>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30417" ;
+    skos:prefLabel "Logouana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30418>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30418" ;
+    skos:prefLabel "Miena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30419>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30419" ;
+    skos:prefLabel "M'pessoba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30420>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30420" ;
+    skos:prefLabel "Nafanga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30421>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30421" ;
+    skos:prefLabel "Nampé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30422>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30422" ;
+    skos:prefLabel "N'golonianasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30423>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30423" ;
+    skos:prefLabel "N'goutjina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30424>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30424" ;
+    skos:prefLabel "Niantaga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30425>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30425" ;
+    skos:prefLabel "N'tossoni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30426>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30426" ;
+    skos:prefLabel "Sincina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30427>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30427" ;
+    skos:prefLabel "Sinkolo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30428>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30428" ;
+    skos:prefLabel "Songo Doubacoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30429>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30429" ;
+    skos:prefLabel "Songoua"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30430>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30430" ;
+    skos:prefLabel "Sorobasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30431>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30431" ;
+    skos:prefLabel "Tao"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30432>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30432" ;
+    skos:prefLabel "Yognogo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30433>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30433" ;
+    skos:prefLabel "Zanfigué"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30434>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30434" ;
+    skos:prefLabel "Zangasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30435>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30435" ;
+    skos:prefLabel "Zanina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30436>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30436" ;
+    skos:prefLabel "Zebala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30501>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30501" ;
+    skos:prefLabel "Benkadi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30502>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30502" ;
+    skos:prefLabel "Blendio"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30503>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30503" ;
+    skos:prefLabel "Danderesso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30504>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30504" ;
+    skos:prefLabel "Dembela"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30505" ;
+    skos:prefLabel "Dialakoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30506>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30506" ;
+    skos:prefLabel "Diomaténé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30507>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30507" ;
+    skos:prefLabel "Dogoni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30508>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30508" ;
+    skos:prefLabel "Doumanaba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30509>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30509" ;
+    skos:prefLabel "Fama"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30510" ;
+    skos:prefLabel "Farakala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30511>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30511" ;
+    skos:prefLabel "Finkolo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30512>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30512" ;
+    skos:prefLabel "Finkolo Ganadougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30513>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30513" ;
+    skos:prefLabel "Gongasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30514>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30514" ;
+    skos:prefLabel "Kabarasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30515" ;
+    skos:prefLabel "Kaboila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30516>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30516" ;
+    skos:prefLabel "Kafouziela"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30517>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30517" ;
+    skos:prefLabel "Kapala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30518>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30518" ;
+    skos:prefLabel "Kapolondougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30519>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30519" ;
+    skos:prefLabel "Kignan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30520" ;
+    skos:prefLabel "Kléla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30521>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30521" ;
+    skos:prefLabel "Kofan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30522>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30522" ;
+    skos:prefLabel "Kolokoba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30523>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30523" ;
+    skos:prefLabel "Koumankou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30524>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30524" ;
+    skos:prefLabel "Kouoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30525" ;
+    skos:prefLabel "Kourouma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30526>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30526" ;
+    skos:prefLabel "Lobougoula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30527>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30527" ;
+    skos:prefLabel "Miniko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30528>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30528" ;
+    skos:prefLabel "Miria"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30529>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30529" ;
+    skos:prefLabel "Missirikoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30530>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30530" ;
+    skos:prefLabel "Natien"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30531>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30531" ;
+    skos:prefLabel "Niéna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30532>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30532" ;
+    skos:prefLabel "Nongo-Souala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30533>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30533" ;
+    skos:prefLabel "N'tjikouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30534>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30534" ;
+    skos:prefLabel "Pimperna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30535>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30535" ;
+    skos:prefLabel "Sanzana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30536>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30536" ;
+    skos:prefLabel "Sikasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30537>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30537" ;
+    skos:prefLabel "Sokourani Missirikoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30538>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30538" ;
+    skos:prefLabel "Tella"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30539>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30539" ;
+    skos:prefLabel "Tiankadi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30540>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30540" ;
+    skos:prefLabel "Waténi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30541>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30541" ;
+    skos:prefLabel "Zanférébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30542>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30542" ;
+    skos:prefLabel "Zangaradougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30543>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30543" ;
+    skos:prefLabel "Zaniena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30601>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30601" ;
+    skos:prefLabel "Baya"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30602>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30602" ;
+    skos:prefLabel "Bolo-Fouta"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30603>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30603" ;
+    skos:prefLabel "Djallon-Foula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30604>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30604" ;
+    skos:prefLabel "Djiguiya De Koloni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30605>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30605" ;
+    skos:prefLabel "Gouanan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30606>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30606" ;
+    skos:prefLabel "Gouandiaka"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30607>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30607" ;
+    skos:prefLabel "Koussan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30608>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30608" ;
+    skos:prefLabel "Sankarani"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30609>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30609" ;
+    skos:prefLabel "Sere Moussa Ani Samo de Siékorolé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30610>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30610" ;
+    skos:prefLabel "Tagandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30611>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30611" ;
+    skos:prefLabel "Wassoulou Balle"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30612>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30612" ;
+    skos:prefLabel "Yallankoro-Soloba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30701>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30701" ;
+    skos:prefLabel "Boura"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30702>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30702" ;
+    skos:prefLabel "Karangana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30703>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30703" ;
+    skos:prefLabel "Kiffosso I"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30704>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30704" ;
+    skos:prefLabel "Koumbia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30705>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30705" ;
+    skos:prefLabel "Koury"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30706>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30706" ;
+    skos:prefLabel "Mahou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30707>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30707" ;
+    skos:prefLabel "Menamba I"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30708>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30708" ;
+    skos:prefLabel "Ourikela"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:30709>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:30709" ;
+    skos:prefLabel "Yorosso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40101" ;
+    skos:prefLabel "Baraouéli"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40102" ;
+    skos:prefLabel "Boidié"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40103" ;
+    skos:prefLabel "Dougoufié"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40104" ;
+    skos:prefLabel "Gouendo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40105" ;
+    skos:prefLabel "Kalake"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40106" ;
+    skos:prefLabel "Konobougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40107" ;
+    skos:prefLabel "N'gassola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40108>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40108" ;
+    skos:prefLabel "Sanando"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40109>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40109" ;
+    skos:prefLabel "Somo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40110>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40110" ;
+    skos:prefLabel "Tamani"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40111>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40111" ;
+    skos:prefLabel "Tesserla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40201" ;
+    skos:prefLabel "Beguene"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40202" ;
+    skos:prefLabel "Bla"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40203" ;
+    skos:prefLabel "Diaramana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40204" ;
+    skos:prefLabel "Diena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40205" ;
+    skos:prefLabel "Dougouolo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40206>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40206" ;
+    skos:prefLabel "Falo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40207>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40207" ;
+    skos:prefLabel "Fani"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40208>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40208" ;
+    skos:prefLabel "Kazangasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40209>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40209" ;
+    skos:prefLabel "Kemeni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40210>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40210" ;
+    skos:prefLabel "Korodougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40211>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40211" ;
+    skos:prefLabel "Koulandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40212>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40212" ;
+    skos:prefLabel "Niala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40213>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40213" ;
+    skos:prefLabel "Samabogo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40214>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40214" ;
+    skos:prefLabel "Somasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40215>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40215" ;
+    skos:prefLabel "Tiemena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40216>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40216" ;
+    skos:prefLabel "Touna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40217>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40217" ;
+    skos:prefLabel "Yangasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40301" ;
+    skos:prefLabel "Boky Were"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40302" ;
+    skos:prefLabel "Folomana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40303" ;
+    skos:prefLabel "Kokry Centre"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40304" ;
+    skos:prefLabel "Kolongo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40305" ;
+    skos:prefLabel "Macina"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40306" ;
+    skos:prefLabel "Matomo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40307" ;
+    skos:prefLabel "Monimpébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40308>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40308" ;
+    skos:prefLabel "Saloba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40309>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40309" ;
+    skos:prefLabel "Sana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40310>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40310" ;
+    skos:prefLabel "Souleye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40311>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40311" ;
+    skos:prefLabel "Tongué"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40401" ;
+    skos:prefLabel "Diabaly"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40402>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40402" ;
+    skos:prefLabel "Dogofry"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40403>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40403" ;
+    skos:prefLabel "Kala Siguida"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40404>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40404" ;
+    skos:prefLabel "Mariko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40405>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40405" ;
+    skos:prefLabel "Nampalari"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40406>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40406" ;
+    skos:prefLabel "Niono"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40407>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40407" ;
+    skos:prefLabel "Pogo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40408>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40408" ;
+    skos:prefLabel "Siribala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40409>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40409" ;
+    skos:prefLabel "Sirifila Boundy"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40410>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40410" ;
+    skos:prefLabel "Sokolo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40411>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40411" ;
+    skos:prefLabel "Toridaga Ko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40412>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40412" ;
+    skos:prefLabel "Yeredon Saniona"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40501>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40501" ;
+    skos:prefLabel "Baramandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40502>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40502" ;
+    skos:prefLabel "Dah"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40503>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40503" ;
+    skos:prefLabel "Diakourouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40504>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40504" ;
+    skos:prefLabel "Diéli"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40505" ;
+    skos:prefLabel "Djéguena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40506>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40506" ;
+    skos:prefLabel "Fion"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40507>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40507" ;
+    skos:prefLabel "Kaniégue"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40508>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40508" ;
+    skos:prefLabel "Karaba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40509>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40509" ;
+    skos:prefLabel "Kassorola"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40510" ;
+    skos:prefLabel "Kava"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40511>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40511" ;
+    skos:prefLabel "Moribila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40512>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40512" ;
+    skos:prefLabel "N'goa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40513>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40513" ;
+    skos:prefLabel "Niamana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40514>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40514" ;
+    skos:prefLabel "Niasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40515" ;
+    skos:prefLabel "N'torosso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40516>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40516" ;
+    skos:prefLabel "Ouolon"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40517>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40517" ;
+    skos:prefLabel "San"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40518>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40518" ;
+    skos:prefLabel "Siadougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40519>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40519" ;
+    skos:prefLabel "Somo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40520>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40520" ;
+    skos:prefLabel "Sourountouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40521>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40521" ;
+    skos:prefLabel "Sy"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40522>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40522" ;
+    skos:prefLabel "Téné"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40523>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40523" ;
+    skos:prefLabel "Teneni"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40524>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40524" ;
+    skos:prefLabel "Tourakolomba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40525>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40525" ;
+    skos:prefLabel "Waki"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40601>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40601" ;
+    skos:prefLabel "Baguindabougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40602>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40602" ;
+    skos:prefLabel "Bellen"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40603>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40603" ;
+    skos:prefLabel "Boussin"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40604>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40604" ;
+    skos:prefLabel "Cinzana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40605>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40605" ;
+    skos:prefLabel "Diédougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40606>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40606" ;
+    skos:prefLabel "Diganibougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40607>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40607" ;
+    skos:prefLabel "Dioro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40608>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40608" ;
+    skos:prefLabel "Diouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40609>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40609" ;
+    skos:prefLabel "Dougabougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40610>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40610" ;
+    skos:prefLabel "Farako"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40611>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40611" ;
+    skos:prefLabel "Farakou Massa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40612>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40612" ;
+    skos:prefLabel "Fatine"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40613>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40613" ;
+    skos:prefLabel "Kamiandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40614>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40614" ;
+    skos:prefLabel "Katiéna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40615>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40615" ;
+    skos:prefLabel "Konodimini"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40616>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40616" ;
+    skos:prefLabel "Markala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40617>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40617" ;
+    skos:prefLabel "Massala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40618>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40618" ;
+    skos:prefLabel "N'gara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40619>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40619" ;
+    skos:prefLabel "N'koumandougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40620>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40620" ;
+    skos:prefLabel "Pelengana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40621>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40621" ;
+    skos:prefLabel "Sakoiba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40622>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40622" ;
+    skos:prefLabel "Sama Foulala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40623>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40623" ;
+    skos:prefLabel "Saminé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40624>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40624" ;
+    skos:prefLabel "Sansanding"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40625>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40625" ;
+    skos:prefLabel "Sébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40626>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40626" ;
+    skos:prefLabel "Ségou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40627>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40627" ;
+    skos:prefLabel "Sibila"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40628>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40628" ;
+    skos:prefLabel "Soignébougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40629>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40629" ;
+    skos:prefLabel "Souba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40630>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40630" ;
+    skos:prefLabel "Togou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40701>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40701" ;
+    skos:prefLabel "Benena"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40702>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40702" ;
+    skos:prefLabel "Diora"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40703>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40703" ;
+    skos:prefLabel "Fangasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40704>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40704" ;
+    skos:prefLabel "Koula"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40705>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40705" ;
+    skos:prefLabel "Lanfiala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40706>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40706" ;
+    skos:prefLabel "Mafouné"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40707>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40707" ;
+    skos:prefLabel "Mandiakuy"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40708>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40708" ;
+    skos:prefLabel "Ouan"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40709>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40709" ;
+    skos:prefLabel "Sanékuy"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40710>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40710" ;
+    skos:prefLabel "Timissa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40711>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40711" ;
+    skos:prefLabel "Tominian"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:40712>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:40712" ;
+    skos:prefLabel "Yasso"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50101" ;
+    skos:prefLabel "Bandiagara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50102" ;
+    skos:prefLabel "Bara Sara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50103" ;
+    skos:prefLabel "Borko"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50104" ;
+    skos:prefLabel "Dandoli"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50105" ;
+    skos:prefLabel "Diamnati"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50106" ;
+    skos:prefLabel "Dogani Béré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50107" ;
+    skos:prefLabel "Doucoumbo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50108>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50108" ;
+    skos:prefLabel "Dourou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50109>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50109" ;
+    skos:prefLabel "Kendé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50110>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50110" ;
+    skos:prefLabel "Kendié"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50111>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50111" ;
+    skos:prefLabel "Lowol Guéou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50112>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50112" ;
+    skos:prefLabel "Métoumou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50113>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50113" ;
+    skos:prefLabel "Ondougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50114>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50114" ;
+    skos:prefLabel "Pélou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50115>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50115" ;
+    skos:prefLabel "Pignari"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50116>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50116" ;
+    skos:prefLabel "Pignari Bana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50117>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50117" ;
+    skos:prefLabel "Sangha"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50118>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50118" ;
+    skos:prefLabel "Ségué Iré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50119>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50119" ;
+    skos:prefLabel "Soroly"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50120>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50120" ;
+    skos:prefLabel "Timiri"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50121>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50121" ;
+    skos:prefLabel "Wadouba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50201" ;
+    skos:prefLabel "Bankass"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50202" ;
+    skos:prefLabel "Baye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50203" ;
+    skos:prefLabel "Diallassagou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50204" ;
+    skos:prefLabel "Dimbal Habé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50205" ;
+    skos:prefLabel "Kani Bozon"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50206>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50206" ;
+    skos:prefLabel "Koulogon Habé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50207>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50207" ;
+    skos:prefLabel "Lessagou Habé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50208>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50208" ;
+    skos:prefLabel "Ouonkoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50209>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50209" ;
+    skos:prefLabel "Ségué"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50210>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50210" ;
+    skos:prefLabel "Sokoura"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50211>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50211" ;
+    skos:prefLabel "Soubala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50212>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50212" ;
+    skos:prefLabel "Tori"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50301" ;
+    skos:prefLabel "Dandougou Fakala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50302" ;
+    skos:prefLabel "Derrary"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50303" ;
+    skos:prefLabel "Djenné"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50304" ;
+    skos:prefLabel "Fakala"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50305" ;
+    skos:prefLabel "Femaye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50306" ;
+    skos:prefLabel "Kéwa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50307" ;
+    skos:prefLabel "Madiama"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50308>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50308" ;
+    skos:prefLabel "Néma Badenyakafo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50309>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50309" ;
+    skos:prefLabel "Niansanari"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50310>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50310" ;
+    skos:prefLabel "Ouro Ali"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50311>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50311" ;
+    skos:prefLabel "Pondori"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50312>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50312" ;
+    skos:prefLabel "Togué Mourari"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50401" ;
+    skos:prefLabel "Dallah"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50402>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50402" ;
+    skos:prefLabel "Dangol Boré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50403>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50403" ;
+    skos:prefLabel "Débéré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50404>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50404" ;
+    skos:prefLabel "Dianwély"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50405>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50405" ;
+    skos:prefLabel "Djaptodji"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50406>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50406" ;
+    skos:prefLabel "Douentza"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50407>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50407" ;
+    skos:prefLabel "Gandamia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50408>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50408" ;
+    skos:prefLabel "Hairé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50409>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50409" ;
+    skos:prefLabel "Hombori"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50410>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50410" ;
+    skos:prefLabel "Kéréna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50411>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50411" ;
+    skos:prefLabel "Korarou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50412>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50412" ;
+    skos:prefLabel "Koubéwel Koundia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50413>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50413" ;
+    skos:prefLabel "Mondoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50414>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50414" ;
+    skos:prefLabel "Pétaka"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50415>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50415" ;
+    skos:prefLabel "Tedie"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50501>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50501" ;
+    skos:prefLabel "Bamba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50502>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50502" ;
+    skos:prefLabel "Barapireli"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50503>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50503" ;
+    skos:prefLabel "Bondo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50504>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50504" ;
+    skos:prefLabel "Diankabou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50505" ;
+    skos:prefLabel "Dinangourou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50506>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50506" ;
+    skos:prefLabel "Diougani"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50507>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50507" ;
+    skos:prefLabel "Dougouténé I"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50508>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50508" ;
+    skos:prefLabel "Dougouténé II"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50509>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50509" ;
+    skos:prefLabel "Kassa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50510>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50510" ;
+    skos:prefLabel "Koporo Pen"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50511>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50511" ;
+    skos:prefLabel "Koporokendie Na"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50512>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50512" ;
+    skos:prefLabel "Koro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50513>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50513" ;
+    skos:prefLabel "Madougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50514>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50514" ;
+    skos:prefLabel "Pel Maoude"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50515>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50515" ;
+    skos:prefLabel "Yoro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50516>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50516" ;
+    skos:prefLabel "Youdiou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50601>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50601" ;
+    skos:prefLabel "Bassirou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50602>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50602" ;
+    skos:prefLabel "Borondougou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50603>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50603" ;
+    skos:prefLabel "Dialloube"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50604>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50604" ;
+    skos:prefLabel "Fatoma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50605>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50605" ;
+    skos:prefLabel "Konna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50606>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50606" ;
+    skos:prefLabel "Korombana"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50607>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50607" ;
+    skos:prefLabel "Koubaye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50608>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50608" ;
+    skos:prefLabel "Kounari"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50609>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50609" ;
+    skos:prefLabel "Mopti"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50610>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50610" ;
+    skos:prefLabel "Ouro Modi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50611>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50611" ;
+    skos:prefLabel "Ouroube Doude"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50612>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50612" ;
+    skos:prefLabel "Sasalbe"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50613>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50613" ;
+    skos:prefLabel "Sio"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50614>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50614" ;
+    skos:prefLabel "Socoura"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50615>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50615" ;
+    skos:prefLabel "Soye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50701>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50701" ;
+    skos:prefLabel "Diafarabé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50702>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50702" ;
+    skos:prefLabel "Diaka"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50703>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50703" ;
+    skos:prefLabel "Diondiori"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50704>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50704" ;
+    skos:prefLabel "Kareri"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50705>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50705" ;
+    skos:prefLabel "Ouro Ardo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50706>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50706" ;
+    skos:prefLabel "Ouro Guire"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50707>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50707" ;
+    skos:prefLabel "Sougoulbe"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50708>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50708" ;
+    skos:prefLabel "Ténenkou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50709>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50709" ;
+    skos:prefLabel "Togoro Kotia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50710>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50710" ;
+    skos:prefLabel "Toguére-Coumbe"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50801>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50801" ;
+    skos:prefLabel "Bimbéré Tama"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50802>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50802" ;
+    skos:prefLabel "Déboye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50803>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50803" ;
+    skos:prefLabel "Dirma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50804>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50804" ;
+    skos:prefLabel "Dongo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50805>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50805" ;
+    skos:prefLabel "Farimaké"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50806>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50806" ;
+    skos:prefLabel "N'dodjiga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:50807>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:50807" ;
+    skos:prefLabel "Youwarou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60101" ;
+    skos:prefLabel "Arham"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60102" ;
+    skos:prefLabel "Binga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60103" ;
+    skos:prefLabel "Bourem Sidi Amar"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60104" ;
+    skos:prefLabel "Dangha"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60105" ;
+    skos:prefLabel "Diré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60106" ;
+    skos:prefLabel "Garbakoira"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60107" ;
+    skos:prefLabel "Haibongo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60108>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60108" ;
+    skos:prefLabel "Kirchamba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60109>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60109" ;
+    skos:prefLabel "Kondi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60110>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60110" ;
+    skos:prefLabel "Sareyamou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60111>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60111" ;
+    skos:prefLabel "Tienkour"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60112>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60112" ;
+    skos:prefLabel "Tindirma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60113>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60113" ;
+    skos:prefLabel "Tinguereguif"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60201" ;
+    skos:prefLabel "Adarmalane"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60202" ;
+    skos:prefLabel "Alzounoub"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60203" ;
+    skos:prefLabel "Bintagoungou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60204" ;
+    skos:prefLabel "Douékire"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60205" ;
+    skos:prefLabel "Doukouria"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60206>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60206" ;
+    skos:prefLabel "Essakane"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60207>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60207" ;
+    skos:prefLabel "Gargando"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60208>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60208" ;
+    skos:prefLabel "Goundam"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60209>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60209" ;
+    skos:prefLabel "Issa Béry"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60210>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60210" ;
+    skos:prefLabel "Kaneye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60211>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60211" ;
+    skos:prefLabel "M'bouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60212>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60212" ;
+    skos:prefLabel "Razelma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60213>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60213" ;
+    skos:prefLabel "Télé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60214>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60214" ;
+    skos:prefLabel "Tilemsi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60215>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60215" ;
+    skos:prefLabel "Tin Aicha"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60216>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60216" ;
+    skos:prefLabel "Tonka"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60301" ;
+    skos:prefLabel "Bambara Maoudé"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60302" ;
+    skos:prefLabel "Banikane"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60303" ;
+    skos:prefLabel "Gossi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60304" ;
+    skos:prefLabel "Hamzakoma"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60305" ;
+    skos:prefLabel "Haribomo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60306" ;
+    skos:prefLabel "Inadiatafane"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60307" ;
+    skos:prefLabel "Ouinerden"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60308>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60308" ;
+    skos:prefLabel "Rharous"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60309>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60309" ;
+    skos:prefLabel "Sérere"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60401" ;
+    skos:prefLabel "Banikane Narhawa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60402>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60402" ;
+    skos:prefLabel "Dianké"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60403>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60403" ;
+    skos:prefLabel "Fittouga"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60404>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60404" ;
+    skos:prefLabel "Koumaïra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60405>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60405" ;
+    skos:prefLabel "Léré"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60406>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60406" ;
+    skos:prefLabel "N'gorkou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60407>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60407" ;
+    skos:prefLabel "Souboundou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60408>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60408" ;
+    skos:prefLabel "Soumpi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60501>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60501" ;
+    skos:prefLabel "Alafia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60502>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60502" ;
+    skos:prefLabel "Ber"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60503>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60503" ;
+    skos:prefLabel "Bourem Inaly"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60504>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60504" ;
+    skos:prefLabel "Lafia"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60505>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60505" ;
+    skos:prefLabel "Salam"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:60506>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:60506" ;
+    skos:prefLabel "Tombouctou"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70101" ;
+    skos:prefLabel "Ansongo"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70102" ;
+    skos:prefLabel "Bara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70103" ;
+    skos:prefLabel "Bourra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70104" ;
+    skos:prefLabel "Ouattagouna"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70105" ;
+    skos:prefLabel "Talataye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70106" ;
+    skos:prefLabel "Tessit"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70107>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70107" ;
+    skos:prefLabel "Tin Hama"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70201" ;
+    skos:prefLabel "Bamba"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70202" ;
+    skos:prefLabel "Bourem"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70203" ;
+    skos:prefLabel "Taboye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70204>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70204" ;
+    skos:prefLabel "Tarkint"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70205>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70205" ;
+    skos:prefLabel "Téméra"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70301" ;
+    skos:prefLabel "Anchawadi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70302" ;
+    skos:prefLabel "Gabéro"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70303" ;
+    skos:prefLabel "Gao"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70304>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70304" ;
+    skos:prefLabel "Gounzoureye"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70305>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70305" ;
+    skos:prefLabel "N'tillit"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70306>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70306" ;
+    skos:prefLabel "Sony Aliber"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:70307>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:70307" ;
+    skos:prefLabel "Tilemsi"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80101" ;
+    skos:prefLabel "Abéïbara"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80102" ;
+    skos:prefLabel "Boghassa"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80103" ;
+    skos:prefLabel "Tinzawatène"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80201>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80201" ;
+    skos:prefLabel "Anefif"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80202>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80202" ;
+    skos:prefLabel "Essouk"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80203>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80203" ;
+    skos:prefLabel "Kidal"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80301>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80301" ;
+    skos:prefLabel "Adjelhoc"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80302>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80302" ;
+    skos:prefLabel "Tessalit"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80303>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80303" ;
+    skos:prefLabel "Timtaghene"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:80401>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:80401" ;
+    skos:prefLabel "Tin Essako"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:90101>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:90101" ;
+    skos:prefLabel "Commune I"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:90102>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:90102" ;
+    skos:prefLabel "Commune II"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:90103>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:90103" ;
+    skos:prefLabel "Commune III"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:90104>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:90104" ;
+    skos:prefLabel "Commune IV"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:90105>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:90105" ;
+    skos:prefLabel "Commune V"@fra-Latn .
+
+<urn:mdciii:1603:16:466:3:90106>
+    a owl:Thing, skos:Concept ;
+    rdfs:label "1603:16:466:3:90106" ;
+    skos:prefLabel "Commune VI"@fra-Latn .
+
