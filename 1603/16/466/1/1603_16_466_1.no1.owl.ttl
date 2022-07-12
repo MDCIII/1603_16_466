@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix p: <http://www.wikidata.org/prop/> .
 
 <urn:mdciii:1603:16()>
@@ -28,59 +29,69 @@
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:1" ;
-    skos:prefLabel "Kayes"@fra-Latn .
+    skos:prefLabel "Kayes"@fra-Latn ;
+    wdata:q7200235 "ML01" .
 
 <urn:mdciii:1603:16:466:1:10>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:10" ;
-    skos:prefLabel "Menaka"@fra-Latn .
+    skos:prefLabel "Menaka"@fra-Latn ;
+    wdata:q7200235 "ML10" .
 
 <urn:mdciii:1603:16:466:1:2>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:2" ;
-    skos:prefLabel "Koulikoro"@fra-Latn .
+    skos:prefLabel "Koulikoro"@fra-Latn ;
+    wdata:q7200235 "ML02" .
 
 <urn:mdciii:1603:16:466:1:3>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:3" ;
-    skos:prefLabel "Sikasso"@fra-Latn .
+    skos:prefLabel "Sikasso"@fra-Latn ;
+    wdata:q7200235 "ML03" .
 
 <urn:mdciii:1603:16:466:1:4>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:4" ;
-    skos:prefLabel "Ségou"@fra-Latn .
+    skos:prefLabel "Ségou"@fra-Latn ;
+    wdata:q7200235 "ML04" .
 
 <urn:mdciii:1603:16:466:1:5>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:5" ;
-    skos:prefLabel "Mopti"@fra-Latn .
+    skos:prefLabel "Mopti"@fra-Latn ;
+    wdata:q7200235 "ML05" .
 
 <urn:mdciii:1603:16:466:1:6>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:6" ;
-    skos:prefLabel "Tombouctou"@fra-Latn .
+    skos:prefLabel "Tombouctou"@fra-Latn ;
+    wdata:q7200235 "ML06" .
 
 <urn:mdciii:1603:16:466:1:7>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:7" ;
-    skos:prefLabel "Gao"@fra-Latn .
+    skos:prefLabel "Gao"@fra-Latn ;
+    wdata:q7200235 "ML07" .
 
 <urn:mdciii:1603:16:466:1:8>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:8" ;
-    skos:prefLabel "Kidal"@fra-Latn .
+    skos:prefLabel "Kidal"@fra-Latn ;
+    wdata:q7200235 "ML08" .
 
 <urn:mdciii:1603:16:466:1:9>
     obo:BFO_0000124 <urn:mcdiii:1603:16:466:0> ;
     a obo:BFO_0000029, owl:Thing, skos:Concept ;
     rdfs:label "1603:16:466:1:9" ;
-    skos:prefLabel "Bamako"@fra-Latn .
+    skos:prefLabel "Bamako"@fra-Latn ;
+    wdata:q7200235 "ML09" .
 
